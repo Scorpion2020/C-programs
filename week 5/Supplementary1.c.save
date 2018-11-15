@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+	float price1;
+	float price2;
+	float price3;
+	printf ("Enter the price of all three items: ");
+	scanf ("%f%f%f", &price1, &price2, &price3);
+	printf ("%f, %f, %f\n", price1, price2, price3);
+	if (price1 > 100) {
+		printf ("Item one is most than £100\n");
+	}
+	else {
+		printf ("Item one is less than £100\n");
+	}
+	if (price2 > 100) {
+                printf ("Item two is most than £100\n");
+	}
+	else {
+		printf ("Item two is less than £100\n");
+	}
+        if (price3 > 100) {
+                printf ("Item three is most than £100\n");
+        }
+	else{
+		printf ("Item three is most than £100\n");
+	}
+	return (0);
+}
+
